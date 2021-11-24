@@ -1,0 +1,103 @@
+html, body { 
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    overflow: hidden;
+}
+.navbar {
+    height: 60px;
+    background-color: red;
+    display: flex; 
+    
+    align-items: center;
+    background-color: #343a40;
+    color: white;
+    
+}
+.logo >  img {
+    width: 60px;
+    padding: 20px;
+    
+}
+.logo >a >img {
+    width: 60px;
+    padding: 20px;
+    
+}
+
+.btn-index { 
+    flex-grow: 1;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#map { 
+    height: 600px;
+    width: 800px;
+    
+    margin-right: 20px;
+    order: 2;
+    box-sizing: border-box;
+    margin-left: auto;
+}
+a { 
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+a:hover { 
+    background-color: #303030;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.background-img { 
+    width: 100%;
+    height: 100%;
+    background-image: url(Panda.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.background_map { 
+    width: 100%;
+    height: 100%;
+    background-image: url(Panda.jpg);
+    background-size: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.China {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background:rgba(108, 122, 137, 0.7 );
+    
+}
+#btn{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+     background:rgba(108, 122, 137, 0.7 );
+    width: 300px;
+    height: 50px;
+ }
+#chart {
+    width: 500px;
+    
+}
